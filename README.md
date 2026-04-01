@@ -58,7 +58,7 @@ Rules vary by type of time + location + coworker coverage + holiday adjacency, e
 
 ## 7. Use Case: Manage Time
 
-### 7.1 Entities (analysis level data model)
+### 7.1 Entities
 - Employee
 - Manager (is-a Employee)
 - Request (pending/approved/rejected/canceled/withdrawn)
