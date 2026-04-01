@@ -37,14 +37,10 @@ Goal / motivation:
 - approval may be optional depending employee level
 - use email infrastructure already in place
 
----
-
 ## 5. Domain — Define the Problem
 Employees request time off → request must satisfy rules (company + location) → request may require manager approval → request becomes Approved / Rejected / Canceled / Withdrawn.
 
 Rules vary by type of time + location + coworker coverage + holiday adjacency, etc.
-
----
 
 ## 6. Actors
 | Actor | Description |
