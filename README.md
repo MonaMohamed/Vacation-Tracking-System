@@ -24,11 +24,7 @@ Goal / motivation:
 
 ## 3. Non‑Functional Requirements
 - usability: must be intuitive / easy‑to‑use is primary
-- reliability: notifications must not be lost
-- security: SSO authentication + role based rights
-- scalability: works for large enterprise (thousands employees)
-- performance: UI pages must load acceptably via corporate LAN
-- maintainability: HR can maintain rules without programmers
+- Uses existing hardware and middleware
 
 ## 4. Constraints
 - must run on existing intranet portal infrastructure
@@ -53,15 +49,6 @@ Rules vary by type of time + location + coworker coverage + holiday adjacency, e
 ---
 
 ## 7. Use Case: Manage Time
-
-### 7.1 Entities
-- Employee
-- Manager (is-a Employee)
-- Request (pending/approved/rejected/canceled/withdrawn)
-- Category (vacation type)
-- Grant (balance allocation per employee/category)
-- Location
-- Restriction (abstract validation rule)
 
 ### 7.2 Flowchart (Main flow)
 <img width="500" height="1000" alt="Untitled diagram-2025-11-10-124335" src="https://github.com/user-attachments/assets/c0fe0837-848a-45c4-8d86-3f12f49b3b50" />
